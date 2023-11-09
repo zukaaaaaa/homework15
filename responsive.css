@@ -1,0 +1,126 @@
+@media (width > 768px){
+    body{
+        height: 100vh;
+        background-image: url(assets/tb1.svg) , url(assets/ftb.svg);
+        background-position: 100% 0% , 10% 150%;
+    }
+    header{
+        padding: 50px 600px 162px 10px;
+    }
+    .main{
+        display: flex;
+        justify-content: center;
+        align-items: start;
+    }
+    .main2{
+        width: 635px;
+        height: 509px;
+        flex-shrink: 0;
+        background: #121725;
+        padding-right: 125px;
+        margin-bottom: 265px;
+    }
+    h1{
+        width: 635px;
+        color: #54E6AF;
+        font-size: 48px;
+        line-height: 56px;
+    }
+    span{
+        width: 635px;
+        color: #FFF;
+        font-size: 48px;
+        line-height: 56px;
+    }
+    h2{
+        width: 445px;
+        color: #C2CBE5;
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .maintext{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        text-align: start;
+        padding-left: 40px;
+        padding-top: 93px;
+        row-gap: 31px;
+    }
+    .mainimgs{
+        display: flex;
+        flex-direction: column-reverse;
+        row-gap: 53px;
+    }
+    .divunia{
+        display: flex;
+        flex-direction: row;
+        margin-top: -40px;
+        margin-right: 175px;
+    }
+    button{
+        width: 162px;
+        height: 46px;
+        flex-shrink: 0;
+        border-radius: 28px;
+        background: #54E6AF;
+        box-shadow: 0px 25px 20px -20px rgba(84, 230, 175, 0.50);
+        z-index: 10;
+        margin-top: -10px;
+        margin-left: -167px;
+    }
+    .diviko{
+        width: 427px;
+        height: 56px;
+        flex-shrink: 0;
+    }
+    .apps{
+        column-gap: 40px;
+        padding-right: 80px;
+    }
+    .apps img{
+        width: 96px;
+        height: 29px;
+        flex-shrink: 0;
+    }
+}
+
+
+
+@media (width > 1440px){
+    body{
+        background-image: url(assets/dsk1.svg) , url(assets/ftb.svg);
+        background-position: 100% 150% , 100% 120%;
+    }
+    
+    .main2{
+        margin-bottom: 130px;
+        margin-left: -420px;
+    }
+    h1{
+        width: 665px;
+        font-size: 52px;
+        line-height: 62px;
+    }
+    span{
+        width: 665px;
+        color: #FFF;
+        font-size: 52px;
+        line-height: 62px;
+    }
+    h2{
+        width: 445px;
+        font-size: 18px;
+        line-height: 28px;
+    }
+    header{
+        padding: 102px 1219px 103px 165px;
+    }
+    .divunia{
+        margin-left: -30px;
+    }
+    .apps{
+        margin-left: -40px;
+    }
+    
+}

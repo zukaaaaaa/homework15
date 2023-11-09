@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Bai+Jamjuree:wght@400;600&family=Barlow:wght@600&family=Big+Shoulders+Display:wght@800;900&family=Chivo&family=DM+Serif+Display&family=Epilogue:wght@400;700&family=Fraunces:opsz,wght@9..144,900&family=Hanken+Grotesk:wght@500;700;800&family=IBM+Plex+Sans:wght@400;700&family=Josefin+Sans:wght@300&family=Karla:wght@400;700&family=Oldenburg&family=Open+Sans:wght@400;700&family=Outfit:wght@300&family=Plus+Jakarta+Sans:wght@500;700;800&family=Poppins:wght@400;600&family=Raleway:wght@400;700&family=Red+Hat+Display:wght@500;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    font-family: 'Chivo';
+    background-color: #121725;
+    background-image: url(assets/mobile.svg);
+    background-repeat: no-repeat;
+}
+header{
+    display: flex;
+    justify-content: center;
+    padding: 62px 120px 57px 120px;
+}
+.main2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.maintext{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 36px;
+    row-gap: 16px;
+}
+h1{
+    color: #4be9ac;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 38px;
+    text-transform: uppercase;
+}
+span{
+    color: #FFF;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 38px;
+    text-transform: uppercase;
+}
+h2{
+    width: 327px;
+    color: #dadfee;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+}
+.apps{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 24px;
+}
+.didibutt{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 41px;
+}
+.divunia{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 16px;
+}
+button{
+    cursor: pointer;
+    border: none;
+    width: 326px;
+    height: 46px;
+    flex-shrink: 0;
+    border-radius: 28px;
+    background: #54E6AF;
+    box-shadow: 0px 25px 20px -20px rgba(84, 230, 175, 0.50);
+    color: #121725;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+}
+button:hover{
+    background: #B3FFE2;
+    box-shadow: 0px 25px 20px -20px rgba(84, 230, 175, 0.50);
+}
+.diviko{
+    width: 327px;
+    height: 46px;
+    flex-shrink: 0;
+    border-radius: 28px;
+    background: #2C344B;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.divencio{
+    width: 90%;
+    position: relative;
+}
+#email-field{
+    display: block;
+    border: 0;
+    background: transparent;
+    outline: none;
+    font-size: 18px;
+    padding: 5px 2px;
+    position: relative;
+    z-index: 10;
+}
+#emaill{
+    display: block;
+    position: absolute;
+    bottom: 5px;
+    left: 2px;
+    color: #777;
+    font-size: 18px;
+    transition: bottom 0.3s;
+}
+#emailll{
+    position: absolute;
+    top: 100%;
+    left: 2px;
+    font-size: 16px;
+    font-weight: 400;
+    color: red;
+}
